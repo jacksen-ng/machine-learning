@@ -21,13 +21,16 @@
     - Example
         - If we have a data set which is $(x_1, y_1), (x_2, y_2), \dots , (x_i, y_i)$ and we also knew that the function is $f(x_i)=mx_i+c$, $\hat{y} = f(x_i)$.
         
-        **Residual Sum of Squares(RSS)**
-        - The Residual Sum of Squares is a function that estimate the difference between the actual values and the predicted values. This function is a crucial in regression analysis as it measures the total squared discrepancies between the observed outcomes and the vales predicted by the model. 
+        **Residual Sum of Squares (RSS)**
 
-        - To calculate RSS, the following formula is used
+        - The Residual Sum of Squares (RSS) is a function that estimates the difference between the actual values and the predicted values. This function is crucial in regression analysis as it measures the total squared discrepancies between the observed outcomes and the values predicted by the model.
+
+        - To calculate RSS, the following formula is used:
+
         $$
-        \text{RSS} = \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 = \sum_{i=1}^{n} \left( y_i - (mx_i + c) \right)^2
+        \text{RSS} = \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 
+        = \sum_{i=1}^{n} \left( y_i - (mx_i + c) \right)^2
         $$
 
+        - Here, $y_i$  represents the actual value, and $\hat{y}_i$ is the predicted value for each observation $i$.
 
-        - where $y_i$ represents the actual value and $\hat{y}$ is the predicted value for each observation $i$. 
