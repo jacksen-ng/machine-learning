@@ -1,8 +1,3 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
-        onload="renderMathInElement(document.body);"></script>
-
 ## Linear Regression
 
 - What is Linear Regression
@@ -32,10 +27,10 @@
 
         - To calculate RSS, the following formula is used:
 
-        $$
+        $
         \text{RSS} = \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 
         = \sum_{i=1}^{n} \left( y_i - (mx_i + c) \right)^2
-        $$
+        $
 
         - Here, $y_i$  represents the actual value, and $\hat{y}_i$ is the predicted value for each observation $i$.
 
