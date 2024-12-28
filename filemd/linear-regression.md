@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 ## Linear Regression
 
 - What is Linear Regression
@@ -26,10 +28,9 @@
         - The Residual Sum of Squares (RSS) is a function that estimates the difference between the actual values and the predicted values. This function is crucial in regression analysis as it measures the total squared discrepancies between the observed outcomes and the values predicted by the model.
 
         - To calculate RSS, the following formula is used:
-
-        $
+        $$
         RSS = Σ(yi - ŷi)² = Σ(yi - (mxi + c))²
-        $
-
+        $$
+        
         - Here, $y_i$  represents the actual value, and $\hat{y}_i$ is the predicted value for each observation $i$.
 
