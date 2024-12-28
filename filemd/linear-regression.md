@@ -26,8 +26,8 @@
         - The Residual Sum of Squares (RSS) is a function that estimates the difference between the actual values and the predicted values. This function is crucial in regression analysis as it measures the total squared discrepancies between the observed outcomes and the values predicted by the model.
 
         - To calculate RSS, the following formula is used:
-        
-        $RSS = \sum(y_i - \hat{y}_i)^2 = \sum(y_i - (mx_i + c))^2$
+
+        $$RSS = \sum(y_i - \hat{y}_i)^2 = \sum(y_i - (mx_i + c))^2$$
 
         - Here, $y_i$ represents the actual value, and $\hat{y}_i$ is the predicted value for each observation $i$.
 
