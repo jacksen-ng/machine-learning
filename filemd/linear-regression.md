@@ -27,10 +27,9 @@
 
         - To calculate RSS, the following formula is used:
 
-        $
-        \text{RSS} = \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 
-        = \sum_{i=1}^{n} \left( y_i - (mx_i + c) \right)^2
-        $
+        $$
+        RSS = Σ(yi - ŷi)² = Σ(yi - (mxi + c))²
+        $$
 
         - Here, $y_i$  represents the actual value, and $\hat{y}_i$ is the predicted value for each observation $i$.
 
