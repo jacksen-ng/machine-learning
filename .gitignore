@@ -1,2 +1,5 @@
 mlvenv/
-data
+data/
+venv/
+.venv/
+.DS_Store
