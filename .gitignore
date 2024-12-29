@@ -2,4 +2,5 @@ mlvenv/
 data/
 venv/
 .venv/
-.DS_Store
+.DS_Store/
+test.ipynb
